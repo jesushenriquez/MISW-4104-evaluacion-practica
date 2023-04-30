@@ -52,16 +52,13 @@ p, h1, h2, h3, h4, h5, h6, a, table {
   padding-right: 15px;
 }
 
-table {
-  margin-left: 20px;
-}
-
 .contenedor-componente {
   margin-top: 10px;
   margin-bottom: 100px;
   width: 60%;
   float: left;
   margin-right: 40%;
+  margin-left: 20px;
 }
 
 .footer {

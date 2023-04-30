@@ -1,6 +1,6 @@
-<table class="table table-striped">
-  <thead class="thread-black">
-    <tr>
+<table class="table">
+  <thead class="thread-black titulo">
+    <tr class="sombra">
       <th scope="col">#</th>
       <th scope="col">Nombre común</th>
       <th scope="col">Tipo</th>
@@ -8,11 +8,15 @@
     </tr>
   </thead>
   <tbody>
-    <tr *ngFor="let plant of plants">
+    <tr class="sombra" *ngFor="let plant of plants">
       <th scope="row">{{ plant.id }}</th>
       <td>{{ plant.nombre_comun }}</td>
       <td>{{ plant.tipo }}</td>
       <td>{{ plant.clima }}</td>
     </tr>
   </tbody>
+  <div class="total-plantas">
+    <p>Total plantas de interior:</p>
+    <p>Total plantas de exterior:</p>
+  </div>
 </table>
